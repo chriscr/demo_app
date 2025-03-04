@@ -1,0 +1,527 @@
+/**  **/
+.swal-button:focus {
+	box-shadow: none;
+}
+
+/*  style cancel buttons */
+.swal-btn-cancel,
+.swal-btn-confirm,
+.swal-btn-success,
+.swal-btn-danger,
+.swal-button--cancel,
+.swal-button--confirm,
+.swal-button--success,
+.swal-button--danger {
+	letter-spacing: 1px;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	background: #c82d1f;
+	/* #509AA5;*/
+	border: none;
+	padding: 13px 10px;
+	margin: 0;
+	text-decoration: none;
+	min-width: 80px;
+	width: auto;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.swal-btn-cancel:not([disabled]):hover,
+.swal-btn-confirm:not([disabled]):hover,
+.swal-btn-success:not([disabled]):hover,
+.swal-btn-danger:not([disabled]):hover,
+.swal-button--cancel:not([disabled]):hover,
+.swal-button--confirm:not([disabled]):hover,
+.swal-button--success:not([disabled]):hover,
+.swal-button--danger:not([disabled]):hover {
+	color: #fff;
+	background: #b02013;
+	border: 1px solid #b02013;
+	border-color: #b02013;
+	text-decoration: none;
+}
+.swal-button--confirm.no-color{
+	background-image: transparent;
+	background: transparent;
+	color: #333;
+	width:100px;
+}
+
+/** MODAL WINDOW CLOSE BUTTON **/
+.close-button {
+	right: 10px;
+	top: 0;
+	font-size: 2em;
+	line-height: 1;
+	color: #288ABB;
+}
+
+.close-button.small {
+	right: 5px;
+	font-size: 1.5em;
+	line-height: 1;
+}
+
+.close-button:hover,
+.close-button:focus,
+.close-button.small:hover,
+.close-button.small:focus {
+	color: #024d93;
+}
+
+/** BUTTONS **/
+button[type="submit"],
+button.button,
+a.button,
+span.button {
+	letter-spacing: 1px;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	background: #c82d1f;
+	/* #509AA5;*/
+	border: 1px solid #c82d1f;
+	/* #36828e;*/
+	padding: 12px 10px 10px 10px;
+	margin: 0;
+	text-decoration: none;
+	width: auto;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+button[type="submit"]:hover,
+button[type="submit"]:focus,
+button.button:hover,
+a.button:hover,
+span.button:hover,
+button.button:focus,
+a.button:focus,
+span.button:focus,
+button.button:active,
+a.button:active,
+span.button:active {
+	color: #fff;
+	background: #b02013;
+	/*#36828e;*/
+	border: 1px solid #b02013;
+	/*#21646e;*/
+	text-decoration: none;
+}
+
+button.button.text-left,
+a.button.text-left,
+span.button.text-left {
+	text-align: left;
+}
+
+/** sizes **/
+button.button.large,
+a.button.large,
+span.button.large {
+	font-size: 16px;
+	padding: 15px 10px;
+}
+
+button.button.medium,
+a.button.medium,
+span.button.medium {
+	width: 87px;
+	font-size: 13px;
+}
+
+button.button.small,
+a.button.small,
+span.button.small {
+	width: 80px;
+}
+
+button.button.small.p-10,
+a.button.small.p-10,
+span.button.small.p-10 {
+	width: 80px;
+	padding: 10px;
+}
+
+button.button.small.p-5.width-100per,
+a.button.small.p-5.width-100per,
+span.button.small.p-5.width-100per {
+	width: 100%;
+	padding: 5px;
+}
+
+button.button.tiny.p-10,
+a.button.tiny.p-10,
+span.button.tiny.p-10 {
+	width: 60px;
+	padding: 13px 5px;
+}
+
+button.button.tiny,
+a.button.tiny,
+span.button.tiny {
+	width: 60px;
+	padding: 7px;
+}
+
+button.button.icon,
+a.button.icon,
+span.button.icon {
+	padding: 5px 5px 5px 5px;
+	width: 35px;
+	height: 35px;
+	background: #eee;
+	border: 2px solid #ccc;
+}
+
+button.button.icon.auto,
+a.button.icon.auto,
+span.button.icon.auto {
+	padding: 5px;
+	width: auto;
+}
+
+button.button.icon-large,
+a.button.icon-large,
+span.button.icon-large {
+	padding: 5px;
+	width: 50px;
+	height: 50px;
+	background: #eee;
+	border: 2px solid #ddd;
+}
+
+button.button.icon-sticky-bottom,
+a.button.icon-sticky-bottom,
+span.button.icon-sticky-bottom {
+	padding: 5px;
+	width: 65px;
+	height: 65px;
+	color: #000;
+	/*#3d7a85;*/
+	background: transparent;
+	border: 2px solid transparent;
+}
+
+button.button.icon-large:hover,
+a.button.icon-large:hover,
+span.button.icon-large :hover,
+button.button.icon-sticky-bottom:hover,
+a.button.icon-sticky-bottom:hover,
+span.button.icon-sticky-bottom :hover {
+	color: #000;
+	background: #bbb;
+}
+
+button.button.mobile-icon,
+a.button.mobile-icon,
+span.button.mobile-icon {
+	padding: 7px 5px 5px 5px;
+	width: 35px;
+	height: 35px;
+	background: #eee;
+	border: 2px solid #ddd;
+}
+
+button.button.inverted,
+a.button.inverted,
+span.button.inverted,
+button.button.social-media,
+a.button.social-media,
+span.button.social-media {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	color: #b02013;
+	background: white;
+	border: 1px solid #ddd;
+}
+
+button.button.social-media,
+a.button.social-media,
+span.button.social-media {
+	padding: 10px 8px;
+	width: 190px;
+}
+
+button.button.mobile-icon:hover,
+a.button.mobile-icon:hover,
+span.button.mobile-icon:hover {
+	color: #fff;
+	background: #b02013;
+	/*#36828e;*/
+	border: 2px solid #b02013;
+	/*#21646e;*/
+}
+
+button.button.icon:hover,
+a.button.icon:hover,
+span.button.icon:hover,
+button.button.inverted:hover,
+a.button.inverted:hover,
+span.button.inverted:hover,
+button.button.social-media:hover,
+a.button.social-media:hover,
+span.button.social-media:hover {
+	color: #fff;
+	background: #b02013;
+	/*#36828e;*/
+	border: 2px solid #b02013;
+	/*#21646e;*/
+}
+
+button.button.icon:hover img,
+a.button.icon:hover img,
+span.button.icon:hover img,
+button.button.icon-large:hover img,
+a.button.icon-large:hover img,
+span.button.icon-large:hover img,
+button.button.mobile-icon:hover .bar,
+a.button.mobile-icon:hover .bar,
+span.button.mobile-icon:hover .bar,
+button.button.inverted:hover img,
+a.button.inverted:hover img,
+span.button.inverted:hover img {
+	filter: invert(100%);
+}
+
+button.button.social-media:hover img,
+a.button.social-media:hover img,
+span.button.social-media:hover img {
+	filter: grayscale(100%) brightness(0) invert(100%);
+}
+
+
+
+button.button.delete,
+a.button.delete,
+span.button.delete {
+	padding: 5px;
+	width: 25px;
+}
+
+button.button.transparent,
+a.button.transparent,
+span.button.transparent {
+	color: #333;
+	background: transparent;
+	border: 1px solid transparent;
+}
+
+button.button.transparent:hover,
+a.button.transparent:hover,
+span.button.transparent:hover {
+	background: #eee;
+	border: 1px solid #eee;
+}
+
+button.button.width-200px-150px,
+a.button.width-200px-150px,
+span.button.width-200px-150px {
+	width: 200px;
+}
+
+button.button.width-200px-135px,
+a.button.width-200px-135px,
+span.button.width-200px-135px {
+	width: 200px;
+}
+
+button.button.width-125px-100px,
+a.button.width-125px-100px,
+span.button.width-125px-100px {
+	width: 125px;
+}
+
+button.button.width-150px,
+a.button.width-150px,
+span.button.width-150px {
+	width: 150px;
+}
+
+button.button.width-175px,
+a.button.width-175px,
+span.button.width-175px {
+	width: 175px;
+}
+
+button.button.width-200px,
+a.button.width-200px,
+span.button.width-200px {
+	width: 200px;
+}
+
+button.button.width-225px,
+a.button.width-225px,
+span.button.width-225px {
+	width: 225px;
+}
+
+button.button.width-250px,
+a.button.width-250px,
+span.button.width-250px {
+	width: 250px;
+}
+
+/** admin dashboard **/
+button.button.admin,
+a.button.admin,
+span.button.admin {
+	padding: 5px 5px;
+	font-size: 12px;
+	font-weight: 400;
+	width: 80px;
+}
+
+/*google*/
+button.button.google,
+a.button.google {
+	color: white;
+	background: #D34836;
+	border: 2px solid #c53f2c;
+}
+
+button.button.google i,
+a.button.google i {
+	line-height: 95%;
+}
+
+button.button.google i:after,
+a.button.google i:after {
+	content: "";
+	position: absolute;
+	height: 40px;
+	border-right: 2px solid #c53f2c;
+	top: 0;
+	padding-left: 10px;
+}
+
+button.button.google:hover,
+a.button.google:hover,
+button.button.google:focus,
+a.button.google:focus {
+	color: white;
+	background: #c53f2c;
+	border: 2px solid #c53f2c;
+}
+
+/*facebook*/
+button.button.facebook,
+a.button.facebook {
+	color: white;
+	background: #3b5998;
+	border: 2px solid #365189;
+}
+
+button.button.facebook i,
+a.button.facebook i {
+	line-height: 95%;
+}
+
+button.button.facebook i:after,
+a.button.facebook i:after {
+	content: "";
+	position: absolute;
+	height: 40px;
+	border-right: 2px solid #365189;
+	top: 0;
+	padding-left: 18px;
+}
+
+button.button.facebook:hover,
+a.button.facebook:hover,
+button.button.facebook:focus,
+a.button.facebook:focus {
+	color: white;
+	background: #365189;
+	border: 2px solid #365189;
+}
+
+
+/** disabled **/
+button[disabled].button,
+button.button:disabled,
+button.button.disabled,
+a.button.disabled,
+span.button.disabled,
+button[disabled].button:hover,
+button.button.disabled:hover,
+a.button.disabled:hover,
+span.button.disabled:hover,
+button[disabled].button:focus,
+button.button.disabled:focus,
+a.button.disabled:focus,
+span.button.disabled:focus {
+	letter-spacing: 1px;
+	color: white;
+	background: #999;
+	border: 2px solid #999;
+	opacity: 1.0;
+}
+
+@media only screen and (max-width:720px) {
+
+	button.button.icon-sticky-bottom,
+	a.button.icon-sticky-bottom,
+	span.button.icon-sticky-bottom {
+		width: 60px;
+		height: 60px;
+	}
+}
+
+@media only screen and (max-width:640px) {
+
+	button.button.icon-sticky-bottom,
+	a.button.icon-sticky-bottom,
+	span.button.icon-sticky-bottom {
+		width: 55px;
+		height: 55px;
+	}
+
+	button.button.width-125px-100px,
+	a.button.width-125px-100px,
+	span.button.width-125px-100px {
+		width: 100px;
+	}
+}
+
+@media only screen and (max-width:520px) {
+
+	button.button.icon-sticky-bottom,
+	a.button.icon-sticky-bottom,
+	span.button.icon-sticky-bottom {
+		width: 55px;
+		height: 55px;
+	}
+}
+
+@media only screen and (max-width:420px) {
+
+	/*
+	button[type="submit"],
+	button.button, a.button, span.button {
+		letter-spacing: normal;
+		padding: 10px 10px 7px 10px;
+	}
+	*/
+	button.button.width-200px-150px,
+	a.button.width-200px-150px,
+	span.button.width-200px-150px {
+		width: 150px;
+	}
+
+	button.button.width-200px-135px,
+	a.button.width-200px-135px,
+	span.button.width-200px-135px {
+		width: 135px;
+	}
+}

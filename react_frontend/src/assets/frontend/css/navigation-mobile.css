@@ -1,0 +1,197 @@
+.hamburger-mobile-nav {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0;
+}
+.hamburger-mobile-nav .bar {
+  display: block;
+  height: 2px;
+  width: 20px;
+  margin: 6px auto;
+  border-radius: 2px;
+  background-color: #000;
+}
+.hamburger-mobile-nav .bar:first-child {
+  margin-top: 0;
+}
+.hamburger-mobile-nav .bar:last-child {
+  margin-bottom: 0;
+}
+
+#mobile_nav{
+	height: 2000px;
+  	overflow: hidden; /* Hide scrollbars */
+}
+
+.menu-mobile-nav {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.menu-mobile-nav li {
+	margin-bottom: 0;
+}
+
+.menu-mobile-nav li a {
+	display: block;
+	padding: 10px 10px 5px 10px;
+	background-color: transparent;
+	color: #333;
+	letter-spacing: 1px;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	transition: all 0.2s ease;
+	position: relative;
+}
+
+.menu-mobile-nav > li > a:hover {
+	background-color: #ccc;
+	color: #333;
+	cursor: pointer;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.menu-mobile-nav li a::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}
+
+.menu-mobile-nav li a:hover::after {
+  opacity: 1;
+}
+
+.submenu-mobile-nav {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.submenu-mobile-nav li {
+	margin-top: 0;
+}
+
+.submenu-mobile-nav li a {
+	display: block;
+	padding: 5px 10px;
+	background-color: #eee;
+	color: #333;
+	letter-spacing: 1px;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	transition: all 0.2s ease;
+	/*
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    */
+}
+
+.submenu-mobile-nav li a:hover {
+	background-color: #ccc;
+	color: #fff;
+	cursor: pointer;
+	/*
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    */
+}
+
+/* accordion effect */
+.submenu-mobile-nav {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+
+.menu-mobile-nav li:hover a {
+	background-color: #eee;
+}
+.menu-mobile-nav.guest li:hover a {
+    color: #b02013;
+	background-color: #ddd;
+}
+
+.menu-mobile-nav li:hover > a{
+	color: #b02013;
+	text-decoration: none;
+}
+
+/* arrows */
+.menu-mobile-nav li > a::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-right: 5px solid #aaa;
+	transform: translateY(-50%);
+	transition: transform 0.2s ease;
+}
+.menu-mobile-nav > li > a::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	width: 0;
+	height: 0;
+	border-top: 7px solid transparent;
+	border-bottom: 7px solid transparent;
+	border-right: 7px solid #777;
+	transform: translateY(-50%);
+	transition: transform 0.2s ease;
+}
+
+.menu-mobile-nav li.submenu-active > .submenu-mobile-nav {
+    max-height: 1000px;
+    /* any large enough value to expand the submenu-mobile-nav */
+}
+
+.menu-mobile-nav li.submenu-active > a:hover {
+	background-color: #ccc;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -khtml-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.menu-mobile-nav li.submenu-active > a {
+    color: #b02013;
+	background-color: #eee;
+    text-decoration: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.submenu-mobile-nav li > a:hover {
+    color: #b02013;
+	background-color: #ddd;
+}
+.menu-mobile-nav > li.submenu-active .submenu-mobile-nav > li:last-child > a{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.menu-mobile-nav > li.submenu-active > a::before {
+    transform: translateY(-50%) rotate(90deg);
+}

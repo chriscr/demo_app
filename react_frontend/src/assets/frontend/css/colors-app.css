@@ -1,0 +1,62 @@
+/* backgrounds */
+.bg-light-blue{
+	background: #4FA4D3;
+}
+.bg-blue{
+	background: #0062c4;
+}
+.bg-dark-blue{
+	background: #0E3151 ;
+}
+.bg-green{
+	background: #10A37F;
+}
+.bg-light-green{
+	background: #6cf4d2;
+}
+.bg-light-red{
+	background: #f9c9ce;
+}
+.bg-red{
+	background: #F12E45;
+}
+.bg-dark-red{
+	background: #c82d1f;
+}
+
+/* text */
+.txt-light-blue{
+	color: #4FA4D3;
+}
+.txt-blue{
+	color: #0062c4;
+}
+.txt-dark-blue{
+	color: #0E3151 ;
+}
+.txt-green{
+	color: #10A37F;
+}
+.txt-light-red{
+	color: #f4acb4;
+}
+.txt-red{
+	color: #F12E45;
+}
+.txt-dark-red{
+	color: #c82d1f;
+}
+
+/* text social media */
+.txt-facebook{
+	color: #3b5998
+}
+.txt-twitter{
+	color: #1dcaff
+}
+.txt-instagram{
+	color: #E4405F
+}
+.txt-pinterest{
+	color: #c8232c
+}

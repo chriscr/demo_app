@@ -1,0 +1,194 @@
+
+.reveal {
+	top: 70px;
+	padding: 0;
+	border-radius: 0;
+	border: none;
+	max-width: none;
+	height: auto;
+	z-index:10000;
+}
+.reveal.tiny{
+	width: 400px;
+	max-width: 400px;
+}
+.reveal.small{
+	width: 600px;
+	max-width: 600px;
+}
+.reveal.medium{
+	width: 800px;
+	max-width: 800px;
+}
+.reveal.large{
+	width: 1000px;
+	max-width: 1000px;
+}
+@media only screen and (max-width:2000px) {
+	.reveal{
+		top: 70px !important;
+		max-width: none;
+		height: auto;
+	}
+}
+@media only screen and (max-width:1080px) {
+	.reveal{
+		/*top: 40px !important;*/
+		top: 90px !important;
+		max-width: none;
+		height: auto;
+	}
+	.reveal .tiny,
+	.reveal.tiny{
+		width: 400px;
+		max-width: 400px;
+	}
+	.reveal .small,
+	.reveal.small{
+		width: 600px;
+		max-width: 600px;
+	}
+	.reveal .medium,
+	.reveal.medium{
+		width: 800px;
+		max-width: 800px;
+	}
+}
+@media only screen and (max-width:1040px) {
+	.reveal{
+		/*top: 40px !important;*/
+		top: 70px !important;
+		max-width: none;
+		height: auto;
+	}
+	.reveal.large{
+		width: calc(100% - 40px);
+		max-width: none;
+	}
+}
+@media only screen and (max-width:880px) {
+	.reveal{
+		/*top: 40px !important;*/
+		top: 70px !important;
+		max-width: none;
+		height: auto;
+	}
+	.reveal.tiny{
+		width: 400px;
+		max-width: 400px;
+	}
+	.reveal.small{
+		width: 600px;
+		max-width: 600px;
+	}
+	.reveal.medium{
+		width: calc(100% - 40px);
+		max-width: none;
+	}
+}
+@media only screen and (max-width:720px) {
+	.reveal{
+		/*top: 30px !important;*/
+		top: 70px !important;
+		max-width: none;
+		height: auto;
+	}
+}
+@media only screen and (max-width:640px) {
+	.reveal{
+		/*top: 20px !important;*/
+		top: 50px !important;
+		max-width: none;
+		height: auto;
+	}
+    .reveal.large,
+	.reveal.medium,
+	.reveal.small{
+		left: 10px;
+		width: calc(100% - 20px);
+		max-width: none;
+		height: auto;
+		min-height: 100px;
+	}
+	.reveal.tiny{
+		left: calc(50% - 200px);
+		width: calc(100% - 20px);
+		max-width: 400px;
+		height: auto;
+		min-height: 100px;
+	}
+}
+@media only screen and (max-width:520px) {
+    .reveal{
+		top: 50px !important;
+		max-width: none;
+		height: auto;
+    }
+    .reveal.large,
+	.reveal.medium,
+	.reveal.small{
+		left: 10px;
+		width: calc(100% - 20px);
+		max-width: none;
+		height: auto;
+		min-height: 100px;
+	}
+	.reveal.tiny{
+		width: 400px;
+		max-width: 400px;
+	}
+}
+@media only screen and (max-width:480px) {
+    .reveal{
+		top: 50px !important;
+		max-width: none;
+		height: auto;
+    }
+    .reveal.large,
+	.reveal.medium,
+	.reveal.small{
+		left: 5px;
+		width: calc(100% - 10px);
+		max-width: none;
+		height: auto;
+		min-height: 100px;
+	}
+	.reveal.tiny{
+		width: 400px;
+		max-width: 400px;
+	}
+}
+@media only screen and (max-width:420px) {
+    .reveal{
+		top: 50px !important;
+		max-width: none;
+		height: auto;
+    }
+    .reveal.large,
+	.reveal.medium,
+	.reveal.small,
+	.reveal.tiny{
+		left: 3px;
+		width: calc(100% - 6px);
+		max-width: none;
+		height: auto;
+		min-height: 100px;
+	}
+}
+@media only screen and (max-width:380px) {
+    .reveal{
+		top: 50px !important;
+		max-width: none;
+		height: auto;
+    }
+    .reveal.large,
+	.reveal.medium,
+	.reveal.small,
+	.reveal.tiny{
+		left: 0;
+		width: 100%;
+		max-width: none;
+		height: auto;
+		min-height: 100px;
+	}
+}

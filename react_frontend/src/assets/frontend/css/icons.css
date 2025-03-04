@@ -1,0 +1,34 @@
+i.fa, i.fas, i.fab{
+	font-size: 1em;
+	padding: 0;
+	margin: 0;
+	width: 20px;
+	text-align: center;
+}
+i.fa.disabled, i.fas.disabled, i.fab.disabled{
+	color: #aaa;
+}
+
+i.fa.fa-xs, i.fas.fas-xs, i.fab.fab-xs {
+	font-size: 0.65em;
+	background:black;
+}
+i.fa.fa-sm, i.fas.fas-sm, i.fab.fab-sm{
+	font-size: 0.875em;
+}
+i.fa.fa-med, i.fas.fas-med, i.fab.fab-med{
+	font-size: 1.25em;
+	width: auto;
+}
+i.fa.fa-lrg, i.fas.fas-lrg, i.fab.fab-lrg{
+	font-size: 1.5em;
+	width: auto;
+}
+i.fa.fa-x-lrg, i.fas.fas-x-lrg, i.fab.fab-x-lrg{
+	font-size: 1.75em;
+	width: auto;
+}
+i.fa.fa-xx-lrg, i.fas.fas-xx-lrg, i.fab.fab-xx-lrg{
+	font-size: 2.0em;
+	width: auto;
+}

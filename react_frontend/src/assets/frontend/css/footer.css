@@ -1,0 +1,12 @@
+.footer{
+	flex-shrink: 0;
+}
+
+.footer a{
+	color: #c82d1f;
+}
+.footer a:hover{
+	color: #b02013;
+}
+@media only screen and (max-width:640px) {
+}

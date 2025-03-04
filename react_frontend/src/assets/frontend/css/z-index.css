@@ -1,0 +1,54 @@
+.z-index-0{
+	z-index: 0;
+}
+
+.z-index-1000{
+	z-index: 1000;
+}
+.z-index-1010{
+	z-index: 1010;
+}
+.z-index-1015{
+	z-index: 1015;
+}
+.z-index-1020{
+	z-index: 1020;
+}
+.z-index-1025{
+	z-index: 1025;
+}
+.z-index-1030{
+	z-index: 1030;
+}
+.z-index-1035{
+	z-index: 1035;
+}
+.z-index-1040{
+	z-index: 1040;
+}
+.z-index-1050{
+	z-index: 1050;
+}
+.z-index-1100{
+	z-index: 1100;
+}
+.z-index-1200{
+	z-index: 1200;
+}
+.z-index-2000{
+	z-index: 2000;
+}
+.z-index-2100{
+	z-index: 2100;
+}
+
+.z-index-2200{
+	z-index: 2200;
+}
+
+.sticky{
+	z-index: 1000;
+}
+.sticky-by-cr{
+	z-index: 2000;
+}

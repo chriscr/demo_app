@@ -1,0 +1,446 @@
+/*
+.left {
+	float: left !important;
+}
+.float-center{
+	align: center;
+}
+.right {
+	float: right !important;
+}
+
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+*/
+/* Container class for horizontal alignment */
+.horizontal-container {
+	display: flex;
+	/* Aligns child elements horizontally */
+}
+
+/* Scenario 1: Float elements left */
+.float-left {
+	justify-content: flex-start;
+	/* Aligns items to the left */
+}
+
+/* Scenario 2: Center elements horizontally */
+.center {
+	justify-content: center;
+	/* Centers items within the parent */
+}
+
+/* Scenario 3: Float elements right */
+.float-right {
+	justify-content: flex-end;
+	/* Aligns items to the right */
+}
+
+/* General styling for child elements */
+.horizontal-container>* {
+	margin: 0;
+	/* Spacing between elements */
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.text-right-center-on-small {
+	text-align: right;
+}
+
+.right-to-left-420px {
+	float: right !important;
+}
+
+.center-everything {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* vertical center the clearfix-left -right */
+.vertical-center-content {
+	display: flex;
+	align-items: center;
+}
+
+.vertical-center-content span.right {
+	margin-left: auto;
+}
+
+.cursor-grab {
+	cursor: grab;
+}
+
+/* link with image icon and text */
+
+
+div.gg-or-fb {
+	height: 1px;
+	border-top: 3px solid #aaa;
+	text-align: center;
+	position: relative;
+}
+
+div.gg-or-fb>span {
+	position: relative;
+	top: -.7em;
+	font-weight: bold;
+	color: #999;
+	background: #eee;
+	display: inline-block;
+}
+
+.scrollable,
+.scrollable-100px,
+.scrollable-125px,
+.scrollable-150px,
+.scrollable-175px,
+.scrollable-200px
+.scrollable-225px,
+.scrollable-250px,
+.scrollable-300px,
+.scrollable-400px,
+.scrollable-500px,
+.scrollable-600px{
+	width: auto;
+	height: auto;
+	overflow-x: hidden;
+    overflow-y: auto; /* Ensure vertical scrolling is enabled */
+	text-align: center;
+}
+.scrollable-100px{
+	max-height: 100px;
+}
+.scrollable-125px{
+	max-height: 125px;
+}
+.scrollable-150px{
+	max-height: 150px;
+}
+.scrollable-175px{
+	max-height: 175px;
+}
+.scrollable-200px{
+	max-height: 200px;
+}
+.scrollable-225px{
+	max-height: 225px;
+}
+.scrollable-250px{
+	max-height: 250px;
+}
+.scrollable-300px{
+	max-height: 300px;
+}
+.scrollable-400px{
+	max-height: 400px;
+}
+.scrollable-500px{
+	max-height: 500px;
+}
+.scrollable-600px{
+	max-height: 600px;
+}
+
+/* make something blink */
+.blink {
+	animation: blinker 1.5s cubic-bezier(.5, 0, 1, 1) infinite alternate;
+}
+
+@keyframes blinker {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+}
+
+/* loading spinner */
+.loading {
+	width: 40px;
+	height: 40px;
+	border: 3px solid #ccc;
+	border-top-color: #c82d1f;
+	border-radius: 50%;
+	animation: spin 1s infinite linear;
+  }
+  .loading.large {
+	width: 50px;
+	height: 50px;
+	border: 2px solid #ccc;
+	border-top-color: #c82d1f;
+	border-radius: 50%;
+	animation: spin 1s infinite linear;
+  }
+  .loading.medium {
+	width: 40px;
+	height: 40px;
+	border: 2px solid #ccc;
+	border-top-color: #c82d1f;
+	border-radius: 50%;
+	animation: spin 1s infinite linear;
+  }
+  .loading.small {
+	width: 30px;
+	height: 30px;
+	border: 2px solid #ccc;
+	border-top-color: #c82d1f;
+	border-radius: 50%;
+	animation: spin 1s infinite linear;
+  }
+  .loading.tiny {
+	width: 20px;
+	height: 20px;
+	border: 2px solid #ccc;
+	border-top-color: #c82d1f;
+	border-radius: 50%;
+	animation: spin 1s infinite linear;
+  }
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.opacity-25 {
+	/* Required for IE 5, 6, 7 */
+	/* ...or something to trigger hasLayout, like zoom: 1; */
+	width: 100%;
+
+	/* Theoretically for IE 8 & 9 (more valid) */
+	/* ...but not required as filter works too */
+	/* should come BEFORE filter */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
+
+	/* This works in IE 8 & 9 too */
+	/* ... but also 5, 6, 7 */
+	filter: alpha(opacity=25);
+
+	/* Older than Firefox 0.9 */
+	-moz-opacity: 0.25;
+
+	/* Safari 1.x (pre WebKit!) */
+	-khtml-opacity: 0.25;
+
+	/* Modern!
+	/* Firefox 0.9+, Safari 2?, Chrome any?
+	/* Opera 9+, IE 9+ */
+	opacity: 0.25;
+}
+
+.opacity-50 {
+	/* Required for IE 5, 6, 7 */
+	/* ...or something to trigger hasLayout, like zoom: 1; */
+	width: 100%;
+
+	/* Theoretically for IE 8 & 9 (more valid) */
+	/* ...but not required as filter works too */
+	/* should come BEFORE filter */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+
+	/* This works in IE 8 & 9 too */
+	/* ... but also 5, 6, 7 */
+	filter: alpha(opacity=50);
+
+	/* Older than Firefox 0.9 */
+	-moz-opacity: 0.5;
+
+	/* Safari 1.x (pre WebKit!) */
+	-khtml-opacity: 0.5;
+
+	/* Modern!
+	/* Firefox 0.9+, Safari 2?, Chrome any?
+	/* Opera 9+, IE 9+ */
+	opacity: 0.5;
+}
+
+.opacity-75 {
+	/* Required for IE 5, 6, 7 */
+	/* ...or something to trigger hasLayout, like zoom: 1; */
+	width: 100%;
+
+	/* Theoretically for IE 8 & 9 (more valid) */
+	/* ...but not required as filter works too */
+	/* should come BEFORE filter */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+
+	/* This works in IE 8 & 9 too */
+	/* ... but also 5, 6, 7 */
+	filter: alpha(opacity=75);
+
+	/* Older than Firefox 0.9 */
+	-moz-opacity: 0.75;
+
+	/* Safari 1.x (pre WebKit!) */
+	-khtml-opacity: 0.75;
+
+	/* Modern!
+	/* Firefox 0.9+, Safari 2?, Chrome any?
+	/* Opera 9+, IE 9+ */
+	opacity: 0.75;
+}
+
+.opacity-100 {
+	/* Required for IE 5, 6, 7 */
+	/* ...or something to trigger hasLayout, like zoom: 1; */
+	width: 100%;
+
+	/* Theoretically for IE 8 & 9 (more valid) */
+	/* ...but not required as filter works too */
+	/* should come BEFORE filter */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+
+	/* This works in IE 8 & 9 too */
+	/* ... but also 5, 6, 7 */
+	filter: alpha(opacity=100);
+
+	/* Older than Firefox 0.9 */
+	-moz-opacity: 0.5;
+
+	/* Safari 1.x (pre WebKit!) */
+	-khtml-opacity: 1.0;
+
+	/* Modern!
+	/* Firefox 0.9+, Safari 2?, Chrome any?
+	/* Opera 9+, IE 9+ */
+	opacity: 1.0;
+}
+
+.video-parent-div {
+	position: relative;
+}
+
+.vertical-center-wrapper {
+	position: relative;
+	width: 100%;
+	height: auto;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.position-wrapper {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+.position-align-top {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.position-align-top-right {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.position-align-bottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.text-overlay-wrapper {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	/* for IE 6 */
+	height: auto;
+}
+
+.text-overlay-100per,
+.text-overlay-100per-top50,
+.text-overlay-1020-top50,
+.text-overlay-1020-bottom50 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	padding: 0;
+	margin: 0;
+	/*
+	background: white;
+	opacity: 0.25;
+	*/
+}
+
+.text-overlay-100per {
+	top: 0;
+	margin: 0 auto;
+	width: 100%;
+	/* for IE 6 */
+	height: 100%;
+}
+
+.text-overlay-100per-top50 {
+	top: 0;
+	margin: 0 auto;
+	width: 100%;
+	/* for IE 6 */
+	height: 50%;
+}
+
+.text-overlay-1020-top50 {
+	top: 0;
+	margin: 0 auto;
+	width: 100%;
+	/* for IE 6 */
+	max-width: 1020px;
+	height: 50%;
+}
+
+.text-overlay-1020-bottom50 {
+	bottom: 0;
+	margin: 0 auto;
+	width: 100%;
+	/* for IE 6 */
+	max-width: 1020px;
+	height: 50%;
+}
+
+@media only screen and (max-width:1020px) {
+	.text-overlay-100 {
+		top: 0;
+		margin: 0 auto;
+		width: 100%;
+		/* for IE 6 */
+		height: 100%;
+	}
+}
+
+@media only screen and (max-width:640px) {
+	.text-right-center-on-small {
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width:420px) {
+	.right-to-left-420px {
+		float: left !important;
+	}
+}

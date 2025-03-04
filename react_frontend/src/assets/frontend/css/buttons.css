@@ -1,0 +1,299 @@
+/* Variables */
+:root {
+    --primary-color: #c82d1f;
+    --primary-hover: #8b190f;
+    --text-color: #fff;
+    --border-radius: 5px;
+    /*--font-family: 'Source Sans Pro', sans-serif;*/
+    --font-family: 'Raleway', sans-serif;
+    --font-size: 16px;
+    --font-weight: 600;
+}
+
+/* Default Button */
+button.button,
+a.button,
+span.button,
+.swal-button,
+.swal-btn-cancel,
+.swal-btn-confirm,
+.swal-btn-success,
+.swal-btn-danger,
+.swal-button--cancel,
+.swal-button--confirm,
+.swal-button--success,
+.swal-button--danger {
+    letter-spacing: 1px;
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+    color: var(--text-color);
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 12px 10px;
+    margin: 0;
+    text-decoration: none;
+    width: auto;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+}
+
+button.button:focus,
+a.button:focus,
+span.button:focus,
+.swal-button:focus,
+.swal-btn-cancel:not([disabled]):focus,
+.swal-btn-confirm:not([disabled]):focus,
+.swal-btn-success:not([disabled]):focus,
+.swal-btn-danger:not([disabled]):focus,
+.swal-button--cancel:not([disabled]):focus,
+.swal-button--confirm:not([disabled]):focus,
+.swal-button--success:not([disabled]):focus,
+.swal-button--danger:not([disabled]):focus {
+    color: var(--text-color);
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+button.button:hover,
+a.button:hover,
+span.button:hover,
+.swal-button:hover,
+.swal-btn-cancel:not([disabled]):hover,
+.swal-btn-confirm:not([disabled]):hover,
+.swal-btn-success:not([disabled]):hover,
+.swal-btn-danger:not([disabled]):hover,
+.swal-button--cancel:not([disabled]):hover,
+.swal-button--confirm:not([disabled]):hover,
+.swal-button--success:not([disabled]):hover,
+.swal-button--danger:not([disabled]):hover{
+    color: var(--text-color);
+    background: var(--primary-hover);
+    border: 1px solid var(--primary-hover);
+}
+
+button[disabled].button,
+button.button:disabled,
+a.button.disabled,
+span.button.disabled,
+button[disabled].button:hover,
+button.button.disabled:hover,
+a.button.disabled:hover,
+span.button.disabled:hover,
+button[disabled].button:focus,
+button.button.disabled:focus,
+a.button.disabled:focus,
+span.button.disabled:focus,
+.swal-button:disabled {
+    opacity: 1;
+    color: #999;
+    background: #eee;
+    border: 1px solid #aaa;
+    cursor: not-allowed;
+}
+
+.swal-button--confirm.no-color,
+.swal-button--confirm.no-color:focus{
+	background-image: transparent;
+	background: transparent;
+	color: #333;
+    border: 1px solid transparent;
+	width:100px;
+}
+
+/* Variants */
+.button.inverted {
+    background: white;
+    color: var(--primary-hover);
+    border: 1px solid #ddd;
+}
+
+.button.inverted:hover {
+    background: var(--primary-hover);
+    color: var(--text-color);
+}
+
+/* Size Modifiers */
+.button.large {
+    padding: 15px 10px;
+    font-size: 18px;
+}
+
+.button.medium {
+    padding: 10px 5px;
+    font-size: 14px;
+}
+
+.button.small {
+    padding: 10px 5px;
+    font-size: 12px;
+}
+
+.button.tiny {
+    padding: 7px 5px;
+    font-size: 10px;
+    width: 60px;
+}
+
+/* Width Modifiers */
+.button.width-100per {
+    width: 100%;
+}
+
+.button.width-60px {
+    width: 60px;
+}
+.button.width-80px {
+    width: 80px;
+}
+.button.width-100px {
+    width: 100px;
+}
+
+.button.width-125px {
+    width: 125px;
+}
+
+.button.width-125px-100px {
+    width: 125px;
+}
+
+.button.width-150px {
+    width: 150px;
+}
+
+.button.width-200px {
+    width: 200px;
+}
+
+/* Icon Buttons */
+button.button.icon,
+a.button.icon,
+span.button.icon {
+    padding: 5px;
+    width: 35px;
+    height: 35px;
+    background: #eee;
+    border: 1px solid #ccc;
+}
+button.button.icon.small,
+a.button.icon.small,
+span.button.icon.small {
+    padding: 3px;
+    width: 30px;
+    height: 30px;
+}
+button.button.icon.red,
+a.button.icon.red,
+span.button.icon.red {
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.button.icon.red img {
+    filter: invert(100%);
+}
+
+button.button.icon:hover,
+a.button.icon:hover,
+span.button.icon:hover,
+a:hover button.button.icon,
+a:hover .button.icon,
+a:hover span.button.icon{
+    background: var(--primary-hover);
+    border: 1px solid var(--primary-hover);
+}
+
+button.button.mobile-icon,
+a.button.mobile-icon,
+span.button.mobile-icon {
+    padding: 7px 5px 5px 5px;
+    width: 35px;
+    height: 35px;
+    background: #eee;
+    border: 1px solid #ccc;
+}
+
+button.button.mobile-icon:hover,
+a.button.mobile-icon:hover,
+span.button.mobile-icon:hover {
+    color: #fff;
+    background: #b02013;
+    border: 1px solid #b02013;
+}
+
+button.button.mobile-icon:hover .bar,
+a.button.mobile-icon:hover .bar,
+span.button.mobile-icon:hover .bar {
+    filter: invert(100%);
+}
+
+button.button.icon-sticky-bottom,
+a.button.icon-sticky-bottom,
+span.button.icon-sticky-bottom {
+    padding: 5px;
+    width: 65px;
+    height: 65px;
+    color: #333;
+    /*#3d7a85;*/
+    background: transparent;
+    border: 1px solid transparent;
+}
+
+button.button.icon-sticky-bottom:hover,
+a.button.icon-sticky-bottom:hover,
+span.button.icon-sticky-bottom :hover {
+    color: #000;
+    background: #ccc;
+}
+
+.button.icon-large {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ddd;
+}
+
+.button.icon:hover img,
+a:hover .button.icon img,
+.button.icon-large:hover img {
+    filter: invert(100%);
+}
+
+@media only screen and (max-width:780px) {
+
+    .button.icon-sticky-bottom,
+    button.button.icon-sticky-bottom,
+    a.button.icon-sticky-bottom,
+    span.button.icon-sticky-bottom {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width:640px) {
+
+    .button.icon-sticky-bottom,
+    button.button.icon-sticky-bottom,
+    a.button.icon-sticky-bottom,
+    span.button.icon-sticky-bottom {
+        width: 55px;
+        height: 55px;
+    }
+
+    .button.width-125px-100px {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width:520px) {
+
+    .button.icon-sticky-bottom,
+    button.button.icon-sticky-bottom,
+    a.button.icon-sticky-bottom,
+    span.button.icon-sticky-bottom {
+        width: 55px;
+        height: 55px;
+    }
+}
+
+@media only screen and (max-width:420px) {}

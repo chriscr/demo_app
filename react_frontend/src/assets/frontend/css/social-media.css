@@ -1,0 +1,27 @@
+/* social media links */
+a.social {
+	padding: 0;
+	background: transparent;
+}
+a.social.facebook {
+	color: #3b5998;
+}
+a.social.google {
+	color: #db3236;
+}
+a.social.twitter {
+	color: #1DA1F2;
+}
+a.social.youtube {
+	color: #c4302b;
+}
+a.social.pinterest {
+	color: #c8232c;
+}
+a.social.facebook:hover,
+a.social.google:hover,
+a.social.twitter:hover,
+a.social.youtube:hover,
+a.social.pinterest:hover{
+	opacity: 0.75;
+}

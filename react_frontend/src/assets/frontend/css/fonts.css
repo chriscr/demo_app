@@ -1,0 +1,179 @@
+.font-source-sans {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Raleway', sans-serif;
+}
+
+.font-raleway {
+	font-family: 'Raleway', sans-serif;
+}
+
+.font-size-50 {
+	font-size: 50px;
+}
+
+.font-size-40 {
+	font-size: 40px;
+}
+
+.font-size-30 {
+	font-size: 30px;
+}
+
+.font-size-24 {
+	font-size: 24px;
+}
+
+.font-size-20 {
+	font-size: 20px;
+}
+
+.font-size-18 {
+	font-size: 18px;
+}
+
+.font-size-18l-16m {
+	font-size: 18px;
+}
+.font-size-18l-16m-14s {
+	font-size: 18px;
+}
+
+.font-size-16 {
+	font-size: 16px;
+}
+
+.font-size-16l-14s {
+	font-size: 16px;
+}
+
+.font-size-14 {
+	font-size: 14px;
+}
+
+.font-size-12 {
+	font-size: 12px;
+}
+
+.font-size-11 {
+	font-size: 11px;
+}
+
+.font-weight-100 {
+	font-weight: 100;
+}
+
+.font-weight-200 {
+	font-weight: 200;
+}
+
+.font-weight-300 {
+	font-weight: 300;
+}
+
+.font-weight-400 {
+	font-weight: 400;
+}
+
+.font-weight-500 {
+	font-weight: 500;
+}
+
+.font-weight-600 {
+	font-weight: 600;
+}
+
+.font-weight-700 {
+	font-weight: 700;
+}
+
+.font-weight-800 {
+	font-weight: 800;
+}
+
+.line-height-100per {
+	line-height: 100%;
+}
+
+.line-height-125per {
+	line-height: 125%;
+}
+
+.line-height-150per {
+	line-height: 150%;
+}
+
+.line-height-175per {
+	line-height: 175%;
+}
+
+.italic {
+	font-style: italic
+}
+
+.bold {
+	font-weight: bold
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.lowercase {
+	text-transform: lowercase;
+}
+
+.letter-spacing-0px {
+	letter-spacing: 0;
+}
+
+.letter-spacing-1px {
+	letter-spacing: 1px;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.overline {
+	text-decoration: overline;
+}
+
+.line-through {
+	text-decoration: line-through;
+}
+
+.bright-125 {
+	filter: brightness(1.25);
+}
+
+.bright-150 {
+	filter: brightness(1.5);
+}
+
+.bright-175 {
+	filter: brightness(1.75);
+}
+
+.justify {
+	text-align: justify;
+}
+
+@media only screen and (max-width:920px) {
+	.font-size-18l-16m {
+		font-size: 16px;
+	}
+	.font-size-18l-16m-14s {
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width:640px) {
+	.font-size-18l-16m-14s,
+	.font-size-16l-14s {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width:480px) {}
+
+@media only screen and (max-width:380px) {}
