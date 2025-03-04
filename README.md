@@ -31,7 +31,7 @@ CR added -->
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="http://utils-app.doubleintegration.com">
+  <a href="http://demo-app.doubleintegration.com">
     <img src="images/logo.png" alt="Logo" width="80">
   </a>
     <h3 align="center">DEMO APP</h3>
@@ -91,7 +91,9 @@ CR added -->
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](http://utils-app.doubleintegration.com)
+[![Product Name Screen Shot][check-list-screenshot]](http://demo-app.doubleintegration.com)
+[![Product Name Screen Shot][location-finder-screenshot]](http://demo-app.doubleintegration.com)
+[![Product Name Screen Shot][weather-screenshot]](http://demo-app.doubleintegration.com)
 <!--CR added
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `chriscr`, `Smart Util App`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 CR added-->
@@ -227,9 +229,9 @@ Chris Romero chriscr@gmail.com
 
 Project Code: [https://github.com/chriscr/demo_app](https://github.com/chriscr/demo_app)
 
-Working Demo: [http://utils-app.doubleintegration.com](http://utils-app.doubleintegration.com)
+Working Demo: [http://demo-app.doubleintegration.com](http://demo-app.doubleintegration.com)
 
-Key Technical Highlights: [http://utils-app.doubleintegration.com/technical_highlights](http://utils-app.doubleintegration.com/technical_highlights)
+Key Technical Highlights: [http://demo-app.doubleintegration.com/technical_highlights](http://demo-app.doubleintegration.com/technical_highlights)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -262,7 +264,9 @@ CR added-->
 [license-url]: https://github.com/chriscr/demo_app/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
+[check-list-screenshot]: images/check_list_image.png
+[location-finder-screenshot]: images/location_finder_image.png
+[weather-screenshot]: images/weather_image.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
