@@ -38,10 +38,10 @@ CR added -->
     <p align="center">By C. Romero</p>
     <br />
   <p align="center">
-    <a href="https://github.com/chriscr/demo_app/tree/main/react_frontend/src"><strong>Explore the React.js source files »</strong></a>
+    <a href="https://github.com/chriscr/demo_app/tree/master/react_frontend/src"><strong>Explore the React.js source files »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/chriscr/demo_app/tree/main/laravel_api"><strong>Explore the PHP Laravel API source files »</strong></a>
+    <a href="https://github.com/chriscr/demo_app/tree/master/laravel_api"><strong>Explore the PHP Laravel API source files »</strong></a>
     <br />
     <br />
     <a href="http://demo-app.doubleintegration.com"><strong>View Live Demo</strong></a>
