@@ -91,9 +91,11 @@ CR added -->
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][check-list-screenshot]](http://demo-app.doubleintegration.com)
-[![Product Name Screen Shot][location-finder-screenshot]](http://demo-app.doubleintegration.com)
-[![Product Name Screen Shot][weather-screenshot]](http://demo-app.doubleintegration.com)
+[![Check List Screen Shot][check-list-screenshot]](http://demo-app.doubleintegration.com)
+<br />
+[![Location Finder Screen Shot][location-finder-screenshot]](http://demo-app.doubleintegration.com)
+<br />
+[![Weather Screen Shot][weather-screenshot]](http://demo-app.doubleintegration.com)
 <!--CR added
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `chriscr`, `Smart Util App`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 CR added-->
