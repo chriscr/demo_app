@@ -31,24 +31,24 @@ CR added -->
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="http://demo-app.doubleintegration.com">
+  <a href="http://sferohub.com">
     <img src="images/logo.png" alt="Logo" width="80">
   </a>
-    <h3 align="center">DEMO APP</h3>
+    <h3 align="center">SferoHub.com</h3>
     <p align="center">By C. Romero</p>
     <br />
   <p align="center">
-    <a href="https://github.com/chriscr/demo_app/tree/master/react_frontend/src"><strong>Explore the React.js source files »</strong></a>
+    <a href="https://github.com/chriscr/demo_app/tree/master/react_frontend/src"><strong>Explore the React.js source files Â»</strong></a>
     <br />
     <br />
-    <a href="https://github.com/chriscr/demo_app/tree/master/laravel_api"><strong>Explore the PHP Laravel API source files »</strong></a>
+    <a href="https://github.com/chriscr/demo_app/tree/master/laravel_api"><strong>Explore the PHP Laravel API source files Â»</strong></a>
     <br />
     <br />
-    <a href="http://demo-app.doubleintegration.com"><strong>View Live Demo</strong></a>
+    <a href="http://sferohub.com"><strong>View Live Demo</strong></a>
     <!--CR added
-    ·
+    Â·
     <a href="https://github.com/chriscr/demo_app/issues">Report Bug</a>
-    ·
+    Â·
     <a href="https://github.com/chriscr/demo_app/issues">Request Feature</a>
     CR added-->
   </p>
@@ -91,11 +91,11 @@ CR added -->
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Check List Screen Shot][check-list-screenshot]](http://demo-app.doubleintegration.com)
+[![Check List Screen Shot][check-list-screenshot]](http://sferohub.com)
 <br />
-[![Location Finder Screen Shot][location-finder-screenshot]](http://demo-app.doubleintegration.com)
+[![Location Finder Screen Shot][location-finder-screenshot]](http://sferohub.com)
 <br />
-[![Weather Screen Shot][weather-screenshot]](http://demo-app.doubleintegration.com)
+[![Weather Screen Shot][weather-screenshot]](http://sferohub.com)
 <!--CR added
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `chriscr`, `Smart Util App`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 CR added-->
@@ -231,9 +231,9 @@ Chris Romero chriscr@gmail.com
 
 Project Code: [https://github.com/chriscr/demo_app](https://github.com/chriscr/demo_app)
 
-Working Demo: [http://demo-app.doubleintegration.com](http://demo-app.doubleintegration.com)
+Working Demo: [http://demo-app.doubleintegration.com](http://dsferohub.com)
 
-Key Technical Highlights: [http://demo-app.doubleintegration.com/technical_highlights](http://demo-app.doubleintegration.com/technical_highlights)
+Key Technical Highlights: [http://demo-app.doubleintegration.com/technical_highlights](http://sferohub.com/technical_highlights)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -293,3 +293,4 @@ CR added-->
 [MaterialUI-url]: https://mui.com/
 [SweetAlert.com]: https://img.shields.io/badge/SweetAlert-F48975?style=for-the-badge&logo=sweetalert&logoColor=white
 [SweetAlert-url]: https://sweetalert.js.org/ 
+
