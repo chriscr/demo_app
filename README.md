@@ -231,9 +231,9 @@ Chris Romero chriscr@gmail.com
 
 Project Code: [https://github.com/chriscr/demo_app](https://github.com/chriscr/demo_app)
 
-Working Demo: [http://demo-app.doubleintegration.com](http://dsferohub.com)
+Working Demo: [http://sferohub.com](http://dsferohub.com)
 
-Key Technical Highlights: [http://demo-app.doubleintegration.com/technical_highlights](http://sferohub.com/technical_highlights)
+Key Technical Highlights: [http://sferohub.com/technical_highlights](http://sferohub.com/technical_highlights)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -293,4 +293,5 @@ CR added-->
 [MaterialUI-url]: https://mui.com/
 [SweetAlert.com]: https://img.shields.io/badge/SweetAlert-F48975?style=for-the-badge&logo=sweetalert&logoColor=white
 [SweetAlert-url]: https://sweetalert.js.org/ 
+
 
